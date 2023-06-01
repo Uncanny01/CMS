@@ -1,0 +1,100 @@
+body
+{
+    background-image: url(bg2.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.backHead
+{
+    font-size: 27.5px;
+}
+
+.back
+{
+    text-decoration: none;
+    color: white;
+}
+
+.main
+{
+    background-color: white;
+    border-radius: 10px;
+    width: 30%;
+    height: 600px;
+    margin-bottom: 50px;
+    margin-top: -39px;
+    margin-left: 450px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.twoinone
+{
+    display: grid;
+    grid-template-columns: 7% 93%;
+}
+
+.threeinone
+{
+    display: grid;
+    grid-template-columns: 7% 88% 5%;
+}
+
+img
+{
+    padding-top: 18px;
+    height: 20px;
+}
+
+.input
+{
+    border: none;
+    /* background-color: rgb(213, 213, 213); */
+    width: 100%;
+    height: 25px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    font-size: 16px;
+    outline: none;
+}
+
+.eye:hover
+{
+    cursor: pointer;
+}
+
+.hr
+{
+    border: 1px solid rgb(213, 213, 213);
+}
+
+.logbt
+{
+    width: 80%;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    background-image: url(bg2.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    cursor: pointer;
+}
+
+.col
+{
+    color: red;
+    font-weight: 500;
+    font-size: 15px;
+}   
